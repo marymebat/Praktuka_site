@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Розклад групи 21-ГРС</title>
+    <script type="text/javascript">
+        function openpage() {
+            let select_group = document.getElementById("group_select").value;
+            var url;
+            switch (select_group) {
+                case "page1":
+                    url = "21grs.html";
+                    break;
+                case "page2":
+                    url = "21ipz.html";
+                    break;
+                case "page3":
+                    url = "21pv.html";
+                    break;
+            }
+            window.location.href = url;
+        }
+    </script>
+</head>
+
+<body>
+    <header class="head">
+        <menu>
+            <a href="../1kurs/1kurs.html">Розклад занять 1 курсу</a>
+            <a href="../2kurs/index.html" style="color: #FA7252;">Розклад занять 2 курсу</a>
+            <a href="../3kurs/index.html">Розклад занять 3 курсу</a>
+            <a href="../4kurs/index.html">Розклад занять 4 курсу</a>
+        </menu>
+        <div class="head_title">
+            <h2 class="h_title">ЕЛЕКТРОНА ДОШКА</h2>
+            <h1 class="h_title h1_title">РОЗКЛАД ЗАНЯТЬ</h1>
+            <h2>1-4 КУРСІВ КОЛЕДЖУ КТГГ</h2>
+        </div>
+    </header>
+    <div class="roz_p">Розклад занять можуть змінюватися, тому уважно слідкуйте за замінами<br />та щоденно перевіряйте
+        розклад!</div>
+    <div style="width: 100%; height: 180px; background: #EFEFEF">
+        <div class="dzvin">Розклад занять 2 курсу (денна форма навчання)</div>
+    </div>
+    <div style="text-align: center;">
+        <p class="grupa">Оберіть групу</p>
+        <div>
+            <select name="" id="group_select">
+                <option value="page1">21-ГРС</option>
+                <option value="page2">21-ІПЗ</option>
+                <option value="page3">21-ПВ</option>
+            </select>
+        </div>
+        <button name="group" type="button" class="btn" onclick="openpage()">Переглянути розклад</button>
+    </div>
+    <table>
+        <tr>
+            <th>День</th>
+            <th>Заняття</th>
+            <th>Час</th>
+            <th>1 тиждень</th>
+            <th>2 тиждень</th>
+        </tr>
+        <tr>
+            <td rowspan="5">Понеділок</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Божко С.А. Захист України (Л)</td>
+            <td>Гаркун І.В. Фізика і астрономія (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Волощук О.А. Історія України (Л)</td>
+            <td>Клименко І.М. Технології (Сем)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Тіунова О.І. Математика (Л)</td>
+            <td>Волощук О.А. Історія України (Л)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Клименко І.М. Технології (Сем)</td>
+            <td>Iноземна мова за професій (ПрЛ)
+                підгр. 1 Дятел О.Ф.
+                підгр. 2 Яблонська О.С.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Вівторок</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Iноземна мова за професій (ПрЛ)
+                підгр. 1 Дятел О.Ф.
+                підгр. 2 Яблонська О.С.</td>
+            <td>Гаркун І.В. Фізика і астрономія (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Клименко І.М. Технології (Л)</td>
+            <td>Тіунова О.І. Математика (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Гаркун І.В. Фізика і астрономія (Л)</td>
+            <td>Iноземна мова за професій (ПрЛ)
+                підгр. 1 Дятел О.Ф.
+                підгр. 2 Яблонська О.С.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Романчук Л.Г. Будівлі і
+                обладнання готелів (Л)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Середа</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Кертуцький В.Й. Фізична культура</td>
+            <td>Кертуцький В.Й. Фізична культура</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Красавцева Л.Ю. БЖД та
+                охорона праці (Л)</td>
+            <td>Красавцева Л.Ю. БЖД та
+                охорона праці (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Інформатика
+                підгр. 1 Хоменко Т.І.
+                підгр. 2 Давиденко Д.С.</td>
+            <td>Інформатика
+                підгр. 1 Хоменко Т.І.
+                підгр. 2 Давиденко Д.С.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Iноземна мова за професій (ПрЛ)
+                підгр. 1 Дятел О.Ф.
+                підгр. 2 Яблонська О.С.</td>
+            <td>Iноземна мова за професій (ПрЛ)
+                підгр. 1 Дятел О.Ф.
+                підгр. 2 Яблонська О.С.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Четвер</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Обремська С.Ю. Українська
+                література (Л)</td>
+            <td>Обремська С.Ю. Українська
+                література (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Тіунова О.І. Математика (Л)</td>
+            <td>Красавцева Л.Ю. БЖД та
+                охорона праці (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Давиденко Т.П. Біологія і екологія (Л)</td>
+            <td>Обремська С.Ю. Українська мова (Сем)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td></td>
+            <td>Давиденко Т.П. Біологія і екологія (Л)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">П'ятниця</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Кертуцький В.Й. Фізична культура</td>
+            <td>Волощук О.А. Історія України (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Iноземна мова за професій (ПрЛ)
+                підгр. 1 Дятел О.Ф.
+                підгр. 2 Яблонська О.С.</td>
+            <td>Iноземна мова за професій (ПрЛ)
+                підгр. 1 Дятел О.Ф.
+                підгр. 2 Яблонська О.С.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Романчук Л.Г. Будівлі і обладнання готелів (Л)</td>
+            <td>Трофименко Т.В. Українська мова за професійним (Л)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td></td>
+            <td>Романчук Л.Г. Будівлі і обладнання готелів (Л)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <footer style="width: 100%; height: 140px; background: #EFEFEF">
+        <p class="foot_title" style="font-size: 40px; padding-top: 23px; padding-bottom: 21px;">2023-2024 навчальний рік
+        </p>
+        <p class="foot_title" style="font-size: 20px;"> Батюк Марія & Дубовой Дмитро</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Розклад групи 11-ПВ</title>
+    <script type="text/javascript">
+        function openpage(){
+    let select_group=document.getElementById("group_select").value;
+    var url;
+    switch(select_group){
+        case "page1":
+            url = "11grs.html";
+            break;
+        case "page2":
+            url = "11ipz.html";
+            break;
+        case "page3":
+            url="11pv.html";
+            break;
+    }
+    window.location.href = url;
+}
+    </script>
+</head>
+<body>
+    <header class="head">
+        <menu>
+            <a href="../1kurs/1kurs.html">Розклад занять 1 курсу</a>
+            <a href="../2kurs/index.html">Розклад занять 2 курсу</a>
+            <a href="../3kurs/index.html">Розклад занять 3 курсу</a>
+            <a href="../4kurs/index.html">Розклад занять 4 курсу</a>
+        </menu>
+        <div class="head_title">
+            <h2 class="h_title">ЕЛЕКТРОНА ДОШКА</h2>
+            <h1 class="h_title h1_title">РОЗКЛАД ЗАНЯТЬ</h1>
+            <h2>1-4 КУРСІВ КОЛЕДЖУ КТГГ</h2>
+        </div>
+    </header>
+    <div class="roz_p">Розклад занять можуть змінюватися, тому уважно слідкуйте за замінами<br/>та щоденно перевіряйте розклад!</div>
+    <div style="width: 100%; height: 180px; background: #EFEFEF">
+        <div class="dzvin">Розклад занять 1 курсу (денна форма навчання)</div>
+    </div>
+    <div style="text-align: center;">
+        <p class="grupa">Оберіть групу</p>
+        <div>
+            <select name="" id="group_select">
+            <option value="page1">11-ГРС</option>
+            <option value="page2">11-ІПЗ</option>
+            <option value="page3">11-ПВ</option>
+        </select>
+        </div>
+        <button name="group" type="button" class="btn" onclick="openpage()" >Переглянути розклад</button>
+    </div>
+    <table>
+        <tr>
+            <th>День</th>
+            <th>Заняття</th>
+            <th>Час</th>
+            <th>1 тиждень</th>
+            <th>2 тиждень</th>
+        </tr>
+        <tr>
+            <td rowspan="5">Понеділок</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Лихманський Б.В. Географія (Л)</td>
+            <td>Гаврик Т.Ю. Історія України (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Роговський А.А. Фізична культура </td>
+            <td>Іноземна мова (ПрЛ)
+                підгр. 1 Кришин Л.М.
+                підгр. 2 Бондаренко І.В.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Іноземна мова (ПрЛ)
+                підгр. 1 Кришин Л.М.
+                підгр. 2 Бондаренко І.В.</td>
+            <td>Лунько І.Д. Громадянська
+                освіта (Сем)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td></td>
+            <td>Кондратюк О.С. Основи 
+                правознавства (Сем)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Вівторок</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Моісєєва Л.І. Хімія (Л)</td>
+            <td>Моісєєва Л.І. Хімія (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Проскуріна Н.Г. Математика (Л)</td>
+            <td>Проскуріна Н.Г. Математика (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Кравцова Л.І. Зарубіжна
+                література (Л)</td>
+            <td>Кравцова Л.І. Зарубіжна література (Л)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Волощук О.А. Всесвітня історія (Сем)</td>
+            <td>Ісаков П.М. Захист України (Сем)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Середа</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Ніколаєва Т.І. Фізика іастрономія (Л)</td>
+            <td>Лихманський Б.В. Географія (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Сушениця Н.Г. Біологія і екологія (Л)</td>
+            <td>Сушениця Н.Г. Біологія і екологія (Сем)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Кондратюк О.С. Основи 
+                правознавства (Л)</td>
+            <td>Роговський А.А. Фізична культура</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td></td>
+            <td>Ніколаєва Т.І. Фізика іастрономія (Сем)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Четвер</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Кравцова Л.І. Українська
+                література (Л)</td>
+            <td>Кравцова Л.І. Українська мова (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Проскуріна Н.Г. Математика (Л)</td>
+            <td>Проскуріна Н.Г. Математика (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Кравцова Л.І. Українська мова (Л)</td>
+            <td>Кравцова Л.І. Українська
+                література (Сем)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Інформатика (ПрЛ)
+                підгр. 1 Хрущ Л.А.
+                підгр. 2 Хоменко Т.І.</td>
+            <td>Інформатика (ПрЛ)
+                підгр. 1 Хрущ Л.А.
+                підгр. 2 Хоменко Т.І.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">П'ятниця</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Чайка С.А. Громадянська освіта (Л)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Кондратюк О.С. Основи 
+                правознавства (Сем)</td>
+            <td>Чайка С.А. Громадянська освіта (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Ісаков П.М. Захист України (Л)</td>
+            <td>Хрущ Л.А. Інформатика (Л)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td></td>
+            <td>Волощук О.А. Всесвітня історія (Л)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <footer style="width: 100%; height: 140px; background: #EFEFEF">
+        <p class="foot_title" style="font-size: 40px; padding-top: 23px; padding-bottom: 21px;">2023-2024 навчальний рік</p>
+        <p class="foot_title" style="font-size: 20px;"> Батюк Марія & Дубовой Дмитро</p>
+    </footer>
+</body>
+</html>

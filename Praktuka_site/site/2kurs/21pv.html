@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Розклад групи 21-ПВ</title>
+    <script type="text/javascript">
+        function openpage(){
+    let select_group=document.getElementById("group_select").value;
+    var url;
+    switch(select_group){
+        case "page1":
+            url = "21grs.html";
+            break;
+        case "page2":
+            url = "21ipz.html";
+            break;
+        case "page3":
+            url="21pv.html";
+            break;
+    }
+    window.location.href = url;
+}
+    </script>
+</head>
+<body>
+    <header class="head">
+        <menu>
+            <a href="../1kurs/1kurs.html" >Розклад занять 1 курсу</a>
+            <a href="../2kurs/2kurs.html" style="color: #FA7252;">Розклад занять 2 курсу</a>
+            <a href="../3kurs/3kurs.html">Розклад занять 3 курсу</a>
+            <a href="../4kurs/4kurs.html">Розклад занять 4 курсу</a>
+        </menu>
+        <div class="head_title">
+            <h2 class="h_title">ЕЛЕКТРОНА ДОШКА</h2>
+            <h1 class="h_title h1_title">РОЗКЛАД ЗАНЯТЬ</h1>
+            <h2>1-4 КУРСІВ КОЛЕДЖУ КТГГ</h2>
+        </div>
+    </header>
+    <div class="roz_p">Розклад занять можуть змінюватися, тому уважно слідкуйте за замінами<br/>та щоденно перевіряйте розклад!</div>
+    <div style="width: 100%; height: 180px; background: #EFEFEF">
+        <div class="dzvin">Розклад занять 2 курсу (денна форма навчання)</div>
+    </div>
+    <div style="text-align: center;">
+        <p class="grupa">Оберіть групу</p>
+        <div>
+            <select name="" id="group_select">
+            <option value="page1">21-ГРС</option>
+            <option value="page2">21-ІПЗ</option>
+            <option value="page3">21-ПВ</option>
+        </select>
+        </div>
+        <button name="group" type="button" class="btn" onclick="openpage()" >Переглянути розклад</button>
+    </div>
+    <table>
+        <tr>
+            <th>День</th>
+            <th>Заняття</th>
+            <th>Час</th>
+            <th>1 тиждень</th>
+            <th>2 тиждень</th>
+        </tr>
+        <tr>
+            <td rowspan="5">Понеділок</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Чайка С.А. Логіка (Л)</td>
+            <td>Ходоровський С.О. Фізична
+                культура (Сем)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Синяченко А.М. Історія України (Л)</td>
+            <td>Нелін О.І. Організація судових
+                та правоохо (Сем)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Нелін О.І. Історія держави
+                і права України (Л)</td>
+            <td>Проскуріна Н.Г. Математика (Л)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Проскуріна Н.Г. Математика (Л)</td>
+            <td>Лейченко Л.М. Діловодство (Сем)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Вівторок</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>підгр. 1 Хрущ Л.А. Основи
+                інформатики та комп`ютер (ПрЛ)</td>
+            <td>підгр. 1 Хрущ Л.А. Основи
+                інформатики та комп`ютер (ПрЛ)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Синяченко А.М. Історія України (Л)</td>
+            <td>Чайка С.А. Логіка (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Іноземна мова (ПрЛ)
+                підгр. 1 Кришин Л.М.
+                підгр. 2 Бондаренко І.В.</td>
+            <td>Ходоровський С.О. Фізична
+                культура (Сем)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>підгр. 2 Хоменко Т.І. Основи 
+                інформатики та комп`ютер (ПрЛ)</td>
+            <td>підгр. 2 Хоменко Т.І. Основи 
+                інформатики та комп`ютер (ПрЛ)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Середа</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Кравцова Л.І. Українська мова (Л)</td>
+            <td>Іноземна мова (ПрЛ)
+                підгр. 1 Кришин Л.М.
+                підгр. 2 Бондаренко І.В.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Кравцова Л.І. Ділова
+                українська мова (Л)</td>
+            <td>Кравцова Л.І. Українська мова (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Кравцова Л.І. Українська
+                література (Л)</td>
+            <td>Кравцова Л.І. Українська
+                література (Сем)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Нелін О.І. Історія держави і
+                права України (Сем)</td>
+            <td>Кравцова Л.І. Українська
+                література (Л)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">Четвер</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td></td>
+            <td>Нелін О.І. Історія держави
+                і права України (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Бобокал О.М. Теорія держави і 
+                права (Л)</td>
+            <td>Михайлошина Л.М. БЖД та
+                охорона праці (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Михайлошина Л.М. БЖД та
+                охорона праці (Л)</td>
+            <td>Бобокал О.М. Теорія держави і 
+                права (Л)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td>Мазур Т.І. Діловодство (Л) 
+                Замінa: Лейченко Л.М.</td>
+            <td>Нелін О.І. Організація судових
+                та правоохо (Сем)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">П'ятниця</td>
+            <td>1</td>
+            <td>9:00 - 10:20</td>
+            <td>Бобокал О.М. Теорія держави і 
+                права (Л)</td>
+            <td>Бобокал О.М. Теорія держави і 
+                права (Л)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>10:30 - 11:50</td>
+            <td>Нелін О.І. Історія держави
+                і права України (Л)</td>
+            <td>Нелін О.І. Історія держави
+                і права України (Л)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12:20 - 13:40</td>
+            <td>Ходоровський С.О. Фізична
+                культура (Сем)</td>
+            <td>Синяченко А.М. Історія України (Л)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>13:50 - 15:10</td>
+            <td></td>
+            <td>Ісаков П.М. Захист України (Сем)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>15:20 - 16:40</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <footer style="width: 100%; height: 140px; background: #EFEFEF">
+        <p class="foot_title" style="font-size: 40px; padding-top: 23px; padding-bottom: 21px;">2023-2024 навчальний рік</p>
+        <p class="foot_title" style="font-size: 20px;"> Батюк Марія & Дубовой Дмитро</p>
+    </footer>
+</body>
+</html>
